@@ -1,5 +1,5 @@
 {
-    "version": "4.0.4",
+    "version": "1.0.0",
     "summary": "A modal dialog widget for Elm.",
     "repository": "https://github.com/Spottt/elm-dialog.git",
     "license": "MIT",
