@@ -1,3 +1,5 @@
+# THIS IS A FORK OF https://github.com/krisajenkins/elm-dialog/, WHICH DOES NOT SEEM TO BE MAINTAINED ANYMORE
+
 # Elm Dialog - A Modal Dialog Widget for Elm
 
 Elm modal dialog boxes that fits in neatly with the Elm architecture.
