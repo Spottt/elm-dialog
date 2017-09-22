@@ -80,7 +80,7 @@ view maybeConfig =
                  , style
                     [ ( "display"
                       , if displayed then
-                            "block"
+                            "table"
                         else
                             "none"
                       )
