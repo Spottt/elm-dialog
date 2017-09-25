@@ -87,8 +87,10 @@ view maybeConfig =
                     ]
                  ]
                 )
-                [ div [ class "modal-dialog", style [ ( "z-index", "1050" ) ] ]
-                    [ div [ class "modal-content" ]
+                [ div
+                    [ class "modal-dialog" ]
+                    [ div
+                        [ class "modal-content", style [ ( "z-index", "1050" ) ] ]
                         (case maybeConfig of
                             Nothing ->
                                 [ empty ]
@@ -99,8 +101,8 @@ view maybeConfig =
                                 , maybe empty wrapFooter config.footer
                                 ]
                         )
+                    , backdrop maybeConfig
                     ]
-                , backdrop maybeConfig
                 ]
             ]
 
